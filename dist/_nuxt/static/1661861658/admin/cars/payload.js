@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/admin/cars", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,24 @@
+﻿mutation insert_axions(
+   $axions_type: String!,  
+   $axions_amount: Int, 
+   $selling_price: numeric,
+   $image_url:String,
+   $axions_descriptions:String
+) {
+  insert_axions(objects: {
+    axions_type: $axions_type, 
+    image_url:$axions_url, 
+    axions_amount: $axions_amount, 
+    selling_price: $selling_price,
+    axions_descriptions:$axions_descriptions
+    }) {
+    affected_rows
+  }
+}
+
+mutation delete_axions($id:Int!) {
+  delete_axions(where: {id: {_eq: $id}})
+  {
+    affected_rows
+  }
+}

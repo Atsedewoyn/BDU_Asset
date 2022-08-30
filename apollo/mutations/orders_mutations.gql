@@ -1,0 +1,25 @@
+﻿mutation insert_orders(
+$address: String,
+$axions_amount:String,
+$axions_type:String,
+$email:String,
+$phone_number:String,
+$full_name:String) {
+  insert_orders(objects: {
+    address:$address, 
+    axions_amount: $axions_amount, 
+    axions_type: $axions_type, 
+    email: $email, 
+    phone_number: $phone_number,
+    full_name:$full_name
+     }) {
+    affected_rows
+  }
+}
+
+
+mutation delete_orders($id:Int!) {
+  delete_orders(where: {id: {_eq:  $id}}) {
+    affected_rows
+  }
+}

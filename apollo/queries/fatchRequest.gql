@@ -1,0 +1,13 @@
+﻿query{
+  request_tables {
+    address
+    axions_amount
+    axions_type
+    created_at
+    email
+    full_name
+    id
+    phone_number
+    updated_at
+  }
+}

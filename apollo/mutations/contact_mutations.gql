@@ -1,0 +1,16 @@
+﻿mutation insert_contacts(
+    $address:String,
+    $comments:String,
+    $email:String,
+    $full_name:String,
+    $phone_number:String) {
+  insert_contacts(objects: {
+    address:$address, 
+    comments: $comments,
+    email: $email,
+    full_name: $full_name,
+    phone_number: $phone_number
+    }) {
+    affected_rows
+  }
+}

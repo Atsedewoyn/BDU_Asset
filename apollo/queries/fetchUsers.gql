@@ -1,0 +1,10 @@
+﻿ query{
+  users{
+    full_name
+    email
+    password
+    phone_number
+    address
+  
+  }
+}

@@ -1,0 +1,17 @@
+﻿mutation insert_users(
+    $full_name:String,
+    $email:String,
+    $address:String,
+    $phone_number:String,
+    $password:String
+    ) {
+  insert_users(objects: {
+    full_name:$full_name, 
+    email: $email, 
+    address: $address,
+    phone_number: $phone_number,
+    password:$password
+    }) {
+    affected_rows
+  }
+}

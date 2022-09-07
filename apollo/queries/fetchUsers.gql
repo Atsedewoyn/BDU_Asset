@@ -1,10 +1,13 @@
-﻿ query{
-  users{
-    full_name
+﻿query getProduct{
+  user(order_by: {updated_at: desc}) 
+  {
+    id
+    name
+    phone
     email
-    password
-    phone_number
-    address
-  
+    faculity
+    created_at
+    updated_at
   }
 }
+

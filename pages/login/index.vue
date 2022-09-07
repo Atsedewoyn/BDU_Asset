@@ -33,7 +33,7 @@
         <br>
         <br>
         <br>
-        <AxionSlider />
+        <productslider />
     </div>
 </template>
 
@@ -43,7 +43,7 @@ export default {
     data() {
         return {
             show1: false,
-            users: [],
+            user: [],
             password: '',
             rules: {
                 min: v => v.length >= 8 || 'Min 8 characters',
@@ -61,7 +61,7 @@ export default {
                 query: require('~/apollo/queries/fetchUsers'),
             }).then(rs => {
                 this.users = rs.data.users
-                if (this.email === 'muller@gmail.com') {
+                if (this.email === 'atsedu@gmail.com') {
                     this.$router.push('/admin')
                 }
                 else {

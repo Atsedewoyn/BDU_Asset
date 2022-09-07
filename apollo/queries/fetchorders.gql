@@ -1,13 +1,12 @@
-﻿ query MyQuery {
-  orders(order_by: {updated_at: desc}) {
-    address
-    axions_amount
-    axions_type
-    created_at
-    email
-    full_name
+﻿query MyQuery {
+  orders(order_by: {updated_at: desc}, limit: 3) {
     id
-    phone_number
+    username
+    phone
+    email
+    faculity
+    description
+    created_at
     updated_at
   }
 }

@@ -2,134 +2,97 @@
   {
     "name": "about",
     "path": "/about",
-    "component": "D:\\\\አባይ_ደላላ\\\\frontend\\\\pages\\\\about\\\\index.vue",
-    "chunkName": "pages/about/index",
-    "_name": "_bd6661c0"
+    "component": "D:\\\\Abay-Gebeya\\\\Aparent-with-nuxt\\\\abay_one\\\\pages\\\\about\\\\index.vue",
+    "chunkName": "pages/about/index"
   },
   {
     "name": "add_your_favorite",
     "path": "/add_your_favorite",
-    "component": "D:\\\\አባይ_ደላላ\\\\frontend\\\\pages\\\\add_your_favorite.vue",
-    "chunkName": "pages/add_your_favorite",
-    "_name": "_609d8e9f"
+    "component": "D:\\\\Abay-Gebeya\\\\Aparent-with-nuxt\\\\abay_one\\\\pages\\\\add_your_favorite.vue",
+    "chunkName": "pages/add_your_favorite"
   },
   {
     "name": "admin",
     "path": "/admin",
-    "component": "D:\\\\አባይ_ደላላ\\\\frontend\\\\pages\\\\admin\\\\index.vue",
-    "chunkName": "pages/admin/index",
-    "_name": "_34f9e21e"
-  },
-  {
-    "name": "axions",
-    "path": "/axions",
-    "component": "D:\\\\አባይ_ደላላ\\\\frontend\\\\pages\\\\axions\\\\index.vue",
-    "chunkName": "pages/axions/index",
-    "_name": "_0ebd4205"
+    "component": "D:\\\\Abay-Gebeya\\\\Aparent-with-nuxt\\\\abay_one\\\\pages\\\\admin\\\\index.vue",
+    "chunkName": "pages/admin/index"
   },
   {
     "name": "axionss",
     "path": "/axionss",
-    "component": "D:\\\\አባይ_ደላላ\\\\frontend\\\\pages\\\\axionss.vue",
-    "chunkName": "pages/axionss",
-    "_name": "_402bace6"
+    "component": "D:\\\\Abay-Gebeya\\\\Aparent-with-nuxt\\\\abay_one\\\\pages\\\\axionss.vue",
+    "chunkName": "pages/axionss"
   },
   {
     "name": "caars",
     "path": "/caars",
-    "component": "D:\\\\አባይ_ደላላ\\\\frontend\\\\pages\\\\caars.vue",
-    "chunkName": "pages/caars",
-    "_name": "_7126254e"
+    "component": "D:\\\\Abay-Gebeya\\\\Aparent-with-nuxt\\\\abay_one\\\\pages\\\\caars.vue",
+    "chunkName": "pages/caars"
   },
   {
     "name": "cars_query",
     "path": "/cars_query",
-    "component": "D:\\\\አባይ_ደላላ\\\\frontend\\\\pages\\\\cars_query.vue",
-    "chunkName": "pages/cars_query",
-    "_name": "_370554e3"
+    "component": "D:\\\\Abay-Gebeya\\\\Aparent-with-nuxt\\\\abay_one\\\\pages\\\\cars_query.vue",
+    "chunkName": "pages/cars_query"
   },
   {
     "name": "carss",
     "path": "/carss",
-    "component": "D:\\\\አባይ_ደላላ\\\\frontend\\\\pages\\\\carss.vue",
-    "chunkName": "pages/carss",
-    "_name": "_4c6bb549"
+    "component": "D:\\\\Abay-Gebeya\\\\Aparent-with-nuxt\\\\abay_one\\\\pages\\\\carss.vue",
+    "chunkName": "pages/carss"
   },
   {
     "name": "contact",
     "path": "/contact",
-    "component": "D:\\\\አባይ_ደላላ\\\\frontend\\\\pages\\\\contact\\\\index.vue",
-    "chunkName": "pages/contact/index",
-    "_name": "_6dc6d7ed"
+    "component": "D:\\\\Abay-Gebeya\\\\Aparent-with-nuxt\\\\abay_one\\\\pages\\\\contact\\\\index.vue",
+    "chunkName": "pages/contact/index"
   },
   {
     "name": "login",
     "path": "/login",
-    "component": "D:\\\\አባይ_ደላላ\\\\frontend\\\\pages\\\\login\\\\index.vue",
-    "chunkName": "pages/login/index",
-    "_name": "_777941c4"
+    "component": "D:\\\\Abay-Gebeya\\\\Aparent-with-nuxt\\\\abay_one\\\\pages\\\\login\\\\index.vue",
+    "chunkName": "pages/login/index"
   },
   {
     "name": "orders",
     "path": "/orders",
-    "component": "D:\\\\አባይ_ደላላ\\\\frontend\\\\pages\\\\orders\\\\index.vue",
-    "chunkName": "pages/orders/index",
-    "_name": "_54b55962"
+    "component": "D:\\\\Abay-Gebeya\\\\Aparent-with-nuxt\\\\abay_one\\\\pages\\\\orders\\\\index.vue",
+    "chunkName": "pages/orders/index"
+  },
+  {
+    "name": "product",
+    "path": "/product",
+    "component": "D:\\\\Abay-Gebeya\\\\Aparent-with-nuxt\\\\abay_one\\\\pages\\\\product\\\\index.vue",
+    "chunkName": "pages/product/index"
   },
   {
     "name": "request",
     "path": "/request",
-    "component": "D:\\\\አባይ_ደላላ\\\\frontend\\\\pages\\\\request\\\\index.vue",
-    "chunkName": "pages/request/index",
-    "_name": "_39e8fe1e"
-  },
-  {
-    "name": "sellAxions",
-    "path": "/sellAxions",
-    "component": "D:\\\\አባይ_ደላላ\\\\frontend\\\\pages\\\\sellAxions\\\\index.vue",
-    "chunkName": "pages/sellAxions/index",
-    "_name": "_6c6c7a53"
+    "component": "D:\\\\Abay-Gebeya\\\\Aparent-with-nuxt\\\\abay_one\\\\pages\\\\request\\\\index.vue",
+    "chunkName": "pages/request/index"
   },
   {
     "name": "sign_up",
     "path": "/sign_up",
-    "component": "D:\\\\አባይ_ደላላ\\\\frontend\\\\pages\\\\sign_up\\\\index.vue",
-    "chunkName": "pages/sign_up/index",
-    "_name": "_6f7c8390"
+    "component": "D:\\\\Abay-Gebeya\\\\Aparent-with-nuxt\\\\abay_one\\\\pages\\\\sign_up\\\\index.vue",
+    "chunkName": "pages/sign_up/index"
   },
   {
-    "name": "admin-addAxions",
-    "path": "/admin/addAxions",
-    "component": "D:\\\\አባይ_ደላላ\\\\frontend\\\\pages\\\\admin\\\\addAxions\\\\index.vue",
-    "chunkName": "pages/admin/addAxions/index",
-    "_name": "_64bd3e9a"
+    "name": "admin-addproducts",
+    "path": "/admin/addproducts",
+    "component": "D:\\\\Abay-Gebeya\\\\Aparent-with-nuxt\\\\abay_one\\\\pages\\\\admin\\\\addproducts\\\\index.vue",
+    "chunkName": "pages/admin/addproducts/index"
   },
   {
-    "name": "admin-cars",
-    "path": "/admin/cars",
-    "component": "D:\\\\አባይ_ደላላ\\\\frontend\\\\pages\\\\admin\\\\cars\\\\index.vue",
-    "chunkName": "pages/admin/cars/index",
-    "_name": "_2ea249c2"
-  },
-  {
-    "name": "article-id",
-    "path": "/article/:id?",
-    "component": "D:\\\\አባይ_ደላላ\\\\frontend\\\\pages\\\\article\\\\_id.vue",
-    "chunkName": "pages/article/_id",
-    "_name": "_0433d97f"
-  },
-  {
-    "name": "axions-id",
-    "path": "/axions/:id",
-    "component": "D:\\\\አባይ_ደላላ\\\\frontend\\\\pages\\\\axions\\\\_id.vue",
-    "chunkName": "pages/axions/_id",
-    "_name": "_3a4e01ad"
+    "name": "product-id",
+    "path": "/product/:id",
+    "component": "D:\\\\Abay-Gebeya\\\\Aparent-with-nuxt\\\\abay_one\\\\pages\\\\product\\\\_id.vue",
+    "chunkName": "pages/product/_id"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "D:\\\\አባይ_ደላላ\\\\frontend\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_1040f5e7"
+    "component": "D:\\\\Abay-Gebeya\\\\Aparent-with-nuxt\\\\abay_one\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
   }
 ]

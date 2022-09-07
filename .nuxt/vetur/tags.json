@@ -1,7 +1,4 @@
 {
-  "AxionSlider": {
-    "description": "Auto imported from components/AxionSlider.vue"
-  },
   "Dashboard": {
     "description": "Auto imported from components/Dashboard.vue"
   },
@@ -15,13 +12,22 @@
     "description": "Auto imported from components/HomeCarousel.vue"
   },
   "Order": {
-    "description": "Auto imported from components/order.vue"
+    "description": "Auto imported from components/Order.vue"
+  },
+  "Productslider": {
+    "description": "Auto imported from components/Productslider.vue"
   },
   "ScrollTop": {
     "description": "Auto imported from components/ScrollTop.vue"
   },
   "SideBar": {
     "description": "Auto imported from components/SideBar.vue"
+  },
+  "ViewOrders": {
+    "description": "Auto imported from components/viewOrders.vue"
+  },
+  "ViewUsers": {
+    "description": "Auto imported from components/ViewUsers.vue"
   },
   "DesktopNav": {
     "description": "Auto imported from components/Desktop/Nav.vue"

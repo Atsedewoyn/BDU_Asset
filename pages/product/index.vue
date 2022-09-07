@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <AxionSlider />
+    <Productslider/>
   </v-container>
 </template>
 <script>

@@ -51,7 +51,7 @@
               </v-avatar>
 
             </v-badge>
-            <span>Endaweke Enkuahone</span>
+            <span>Atsedewoyn Molla</span>
           </v-chip>
         </span>
       </template>
@@ -64,7 +64,7 @@
           </v-list-item-avatar>
           <v-list-item-content>
             <v-list-item-title>
-              Endaweke Enkuahone
+              Atsedewoyn Molla
             </v-list-item-title>
             <v-list-item-subtitle>
               Logged In
@@ -100,7 +100,7 @@ export default {
         title: "Change-Password", icon: "mdi-key", routee: '/signin'
       },
       {
-        title: "Settings", icon: "mdi-cog", routee: '/axions'
+        title: "Settings", icon: "mdi-cog", routee: '/product'
       },
       {
         title: "Logout", icon: "mdi-logout", routee: '/'

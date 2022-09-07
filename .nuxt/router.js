@@ -4,25 +4,22 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _bd6661c0 = () => interopDefault(import('..\\pages\\about\\index.vue' /* webpackChunkName: "pages/about/index" */))
-const _609d8e9f = () => interopDefault(import('..\\pages\\add_your_favorite.vue' /* webpackChunkName: "pages/add_your_favorite" */))
-const _34f9e21e = () => interopDefault(import('..\\pages\\admin\\index.vue' /* webpackChunkName: "pages/admin/index" */))
-const _0ebd4205 = () => interopDefault(import('..\\pages\\axions\\index.vue' /* webpackChunkName: "pages/axions/index" */))
-const _402bace6 = () => interopDefault(import('..\\pages\\axionss.vue' /* webpackChunkName: "pages/axionss" */))
-const _7126254e = () => interopDefault(import('..\\pages\\caars.vue' /* webpackChunkName: "pages/caars" */))
-const _370554e3 = () => interopDefault(import('..\\pages\\cars_query.vue' /* webpackChunkName: "pages/cars_query" */))
-const _4c6bb549 = () => interopDefault(import('..\\pages\\carss.vue' /* webpackChunkName: "pages/carss" */))
-const _6dc6d7ed = () => interopDefault(import('..\\pages\\contact\\index.vue' /* webpackChunkName: "pages/contact/index" */))
-const _777941c4 = () => interopDefault(import('..\\pages\\login\\index.vue' /* webpackChunkName: "pages/login/index" */))
-const _54b55962 = () => interopDefault(import('..\\pages\\orders\\index.vue' /* webpackChunkName: "pages/orders/index" */))
-const _39e8fe1e = () => interopDefault(import('..\\pages\\request\\index.vue' /* webpackChunkName: "pages/request/index" */))
-const _6c6c7a53 = () => interopDefault(import('..\\pages\\sellAxions\\index.vue' /* webpackChunkName: "pages/sellAxions/index" */))
-const _6f7c8390 = () => interopDefault(import('..\\pages\\sign_up\\index.vue' /* webpackChunkName: "pages/sign_up/index" */))
-const _64bd3e9a = () => interopDefault(import('..\\pages\\admin\\addAxions\\index.vue' /* webpackChunkName: "pages/admin/addAxions/index" */))
-const _2ea249c2 = () => interopDefault(import('..\\pages\\admin\\cars\\index.vue' /* webpackChunkName: "pages/admin/cars/index" */))
-const _0433d97f = () => interopDefault(import('..\\pages\\article\\_id.vue' /* webpackChunkName: "pages/article/_id" */))
-const _3a4e01ad = () => interopDefault(import('..\\pages\\axions\\_id.vue' /* webpackChunkName: "pages/axions/_id" */))
-const _1040f5e7 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _4f02b42a = () => interopDefault(import('..\\pages\\about\\index.vue' /* webpackChunkName: "pages/about/index" */))
+const _5a418056 = () => interopDefault(import('..\\pages\\add_your_favorite.vue' /* webpackChunkName: "pages/add_your_favorite" */))
+const _3aa071b0 = () => interopDefault(import('..\\pages\\admin\\index.vue' /* webpackChunkName: "pages/admin/index" */))
+const _5329499c = () => interopDefault(import('..\\pages\\axionss.vue' /* webpackChunkName: "pages/axionss" */))
+const _911380e2 = () => interopDefault(import('..\\pages\\caars.vue' /* webpackChunkName: "pages/caars" */))
+const _2e24f46d = () => interopDefault(import('..\\pages\\cars_query.vue' /* webpackChunkName: "pages/cars_query" */))
+const _3c75077f = () => interopDefault(import('..\\pages\\carss.vue' /* webpackChunkName: "pages/carss" */))
+const _f4d0bb12 = () => interopDefault(import('..\\pages\\contact\\index.vue' /* webpackChunkName: "pages/contact/index" */))
+const _252f26ce = () => interopDefault(import('..\\pages\\login\\index.vue' /* webpackChunkName: "pages/login/index" */))
+const _5dbc1598 = () => interopDefault(import('..\\pages\\orders\\index.vue' /* webpackChunkName: "pages/orders/index" */))
+const _5c2cb248 = () => interopDefault(import('..\\pages\\product\\index.vue' /* webpackChunkName: "pages/product/index" */))
+const _51b9c8a8 = () => interopDefault(import('..\\pages\\request\\index.vue' /* webpackChunkName: "pages/request/index" */))
+const _f16563cc = () => interopDefault(import('..\\pages\\sign_up\\index.vue' /* webpackChunkName: "pages/sign_up/index" */))
+const _26f5ee72 = () => interopDefault(import('..\\pages\\admin\\addproducts\\index.vue' /* webpackChunkName: "pages/admin/addproducts/index" */))
+const _7652a6b0 = () => interopDefault(import('..\\pages\\product\\_id.vue' /* webpackChunkName: "pages/product/_id" */))
+const _004a481d = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -37,79 +34,67 @@ export const routerOptions = {
 
   routes: [{
     path: "/about",
-    component: _bd6661c0,
+    component: _4f02b42a,
     name: "about"
   }, {
     path: "/add_your_favorite",
-    component: _609d8e9f,
+    component: _5a418056,
     name: "add_your_favorite"
   }, {
     path: "/admin",
-    component: _34f9e21e,
+    component: _3aa071b0,
     name: "admin"
   }, {
-    path: "/axions",
-    component: _0ebd4205,
-    name: "axions"
-  }, {
     path: "/axionss",
-    component: _402bace6,
+    component: _5329499c,
     name: "axionss"
   }, {
     path: "/caars",
-    component: _7126254e,
+    component: _911380e2,
     name: "caars"
   }, {
     path: "/cars_query",
-    component: _370554e3,
+    component: _2e24f46d,
     name: "cars_query"
   }, {
     path: "/carss",
-    component: _4c6bb549,
+    component: _3c75077f,
     name: "carss"
   }, {
     path: "/contact",
-    component: _6dc6d7ed,
+    component: _f4d0bb12,
     name: "contact"
   }, {
     path: "/login",
-    component: _777941c4,
+    component: _252f26ce,
     name: "login"
   }, {
     path: "/orders",
-    component: _54b55962,
+    component: _5dbc1598,
     name: "orders"
   }, {
+    path: "/product",
+    component: _5c2cb248,
+    name: "product"
+  }, {
     path: "/request",
-    component: _39e8fe1e,
+    component: _51b9c8a8,
     name: "request"
   }, {
-    path: "/sellAxions",
-    component: _6c6c7a53,
-    name: "sellAxions"
-  }, {
     path: "/sign_up",
-    component: _6f7c8390,
+    component: _f16563cc,
     name: "sign_up"
   }, {
-    path: "/admin/addAxions",
-    component: _64bd3e9a,
-    name: "admin-addAxions"
+    path: "/admin/addproducts",
+    component: _26f5ee72,
+    name: "admin-addproducts"
   }, {
-    path: "/admin/cars",
-    component: _2ea249c2,
-    name: "admin-cars"
-  }, {
-    path: "/article/:id?",
-    component: _0433d97f,
-    name: "article-id"
-  }, {
-    path: "/axions/:id",
-    component: _3a4e01ad,
-    name: "axions-id"
+    path: "/product/:id",
+    component: _7652a6b0,
+    name: "product-id"
   }, {
     path: "/",
-    component: _1040f5e7,
+    component: _004a481d,
     name: "index"
   }],
 

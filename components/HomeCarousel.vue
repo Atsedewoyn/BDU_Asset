@@ -18,7 +18,7 @@
           </v-row>
         </template>
         <v-carousel-item v-for="(p, i) in product" :key="i">
-          <v-img height="100vh" :src="p.image_url">
+          <v-img height="100vh" :src="p.gallery">
             <v-container class="fill-height">
               <v-row dense align="center">
                 <v-col md="7">
@@ -28,13 +28,13 @@
                       {{ p.name }}
                     </h2>
                     <h3 class="text-md-h5 text-subtitle-1 primary--text mt-5">
-                      Axion Amount {{ p.amount }}.00 Birr
+                      product category{{ p.category }}
                     </h3>
                     <h3 class="text-md-h5 text-subtitle-1 primary--text mt-5">
                       Selling Price {{ p.price }}.00 Birr
                     </h3>
                     <!-- <p class="text-md-body-2 mb-7">{{ p.axions_description }}</p> -->
-                    <v-btn depressed nuxt :to="`/axions/${p.id}`" color="primary" class="text-capitalize"
+                    <v-btn depressed nuxt :to="`/product/${p.id}`" color="primary" class="text-capitalize"
                       min-height="40">
                       Check It Out</v-btn>
                   </div>
@@ -63,9 +63,9 @@ export default {
   methods: {
     getData() {
       this.$apollo.query({
-        query: require('~/apollo/queries/fetchAxions'),
+        query: require('~/apollo/queries/fetchproducts'),
       }).then(rs => {
-        this.product = rs.data.ab1_product
+        this.product = rs.data.product
         console.log(rs);
       }).catch(error => {
         console.log(error);

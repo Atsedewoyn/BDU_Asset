@@ -1,5 +1,5 @@
 {
-  "name": "Abay Technology and Logistic",
+  "name": "Asset dev't",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -26,7 +26,7 @@
     "cross-env": "^7.0.3",
     "express": "^4.18.1",
     "graphql-tag": "^2.12.6",
-    "nuxt": "2.15.8",
+    "nuxt": "^2.15.8",
     "nuxt-webfontloader": "^1.1.0",
     "vue": "^2.6.14",
     "vue-server-renderer": "^2.6.14",
@@ -43,7 +43,7 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-nuxt": "^3.1.0",
     "eslint-plugin-vue": "^8.2.0",
-    "hasura-cli": "^2.9.0",
+    "hasura-cli": "^2.10.1",
     "less": "^3.9.0",
     "less-loader": "^4.1.0",
     "nodemon": "^2.0.15",

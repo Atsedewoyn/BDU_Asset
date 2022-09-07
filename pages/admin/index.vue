@@ -1,6 +1,6 @@
 <template>
   <v-app id="inspire">
-    <Header @drawerEvent="drawer = !drawer" />
+    <Header @drawerEvent="drawer =!drawer" />
     <SideBar :drawer="drawer" />
 
     <v-main>

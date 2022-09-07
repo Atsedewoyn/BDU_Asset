@@ -1,0 +1,12 @@
+﻿query getProduct {
+  product(order_by: {updated_at: desc}, limit: 10) {
+    id
+    name
+    gallery
+    category
+    price
+    description
+    created_at
+    updated_at
+  }
+}

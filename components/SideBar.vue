@@ -68,7 +68,7 @@
 
         <v-list-item-content>
           <v-list-item-title>
-            <nuxt-link to="/admin/addAxions">Add Axions</nuxt-link>
+            <nuxt-link to="/admin/addproducts">Add products</nuxt-link>
           </v-list-item-title>
         </v-list-item-content>
       </v-list-item>
@@ -81,7 +81,7 @@ export default {
   props: ["drawer"],
   data: () => ({
     links: [
-      ["mdi-ubuntu", "Dashbaord"],
+      ["mdi-microsoftWindows", "Dashbaord"],
       ["mdi-account", "Profile"],
       ["mdi-clipboard-list-outline", "Product"],
       ["mdi-clipboard-list", "Order"],

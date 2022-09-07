@@ -8,7 +8,7 @@
       <HomeCarousel />
       <br />
 
-      <AxionSlider />
+      <productslider />
       <br /><br /><br />
 
     </v-container>

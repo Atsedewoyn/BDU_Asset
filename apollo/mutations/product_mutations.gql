@@ -1,0 +1,17 @@
+﻿mutation insert_product(
+    $name:String,
+    $category:String,
+    $price:String
+    $description:String,
+    $gallery:String,
+    ) {
+  insert_product(objects: {
+    name:$name, 
+    category: $category,
+    price:$price
+    description: $description,
+    gallery: $gallery, 
+    }) {
+    affected_rows
+  }
+}

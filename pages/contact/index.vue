@@ -7,13 +7,13 @@
                 <p class="text-md-h6 mt-5">Contact Us for more information</p>
                 <br />
                 <v-sheet color="transparent" class="mx-auto" max-width="400">
-                    <v-text-field v-model="full_name" color="dark" label="full name" :rules="nameRules" outlined>
+                    <v-text-field v-model="name" color="dark" label="full name" :rules="nameRules" outlined>
                     </v-text-field>
                     <v-text-field v-model="email" color="dark" label="Email" :rules="emailRules" outlined>
                     </v-text-field>
-                    <v-text-field v-model="phone_number" color="dark" label="phone_number" :rules="phoneRules" outlined>
+                    <v-text-field v-model="phone" color="dark" label="phone_number" :rules="phoneRules" outlined>
                     </v-text-field>
-                    <v-text-field v-model="address" color="dark" label="address" :rules="addressRules" outlined>
+                    <v-text-field v-model="job" color="dark" label="your job" :rules="jobRules" outlined>
                     </v-text-field>
                     <v-textarea v-model="comments" color="dark" label="comments" :rules="commentsRules" outlined>
                     </v-textarea>
@@ -25,7 +25,7 @@
             </v-card>
         </v-container>
         <br><br><br><br /><br><br><br><br />
-        <AxionSlider />
+        <productslider />
     </div>
 </template>
 
@@ -35,7 +35,7 @@ export default {
     data() {
         return {
             contacts: [],
-            full_name: '',
+            name: '',
             nameRules: [
                 v => !!v || 'Name is required',
             ],
@@ -43,11 +43,11 @@ export default {
             emailRules: [
                 v => !!v || 'email is required',
             ],
-            address: '',
-            addressRules: [
-                v => !!v || 'email is required',
+            job: '',
+            jobRules: [
+                v => !!v || 'job is required',
             ],
-            phone_number: '',
+            phone: '',
             phoneRules: [
                 v => !!v || 'phone is required',
                 v => (v && v.length <= 10) || 'Name must be less than 10 characters',
@@ -63,11 +63,11 @@ export default {
             this.$apollo.mutate({
                 mutation: mutationContacts.insert_contacts,
                 variables: {
-                    address: this.address,
+                    job: this.job,
                     comments: this.comments,
                     email: this.email,
-                    full_name: this.full_name,
-                    phone_number: this.phone_number
+                    name: this.name,
+                    phone: this.phone
                 }
             }).then(rs => {
                 this.contacts.push(rs.data.insert_contacts)
@@ -85,9 +85,6 @@ export default {
                 console.log(error)
             })
         },
-
-
-
     }
 }
 

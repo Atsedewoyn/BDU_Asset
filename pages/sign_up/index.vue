@@ -8,7 +8,7 @@
                         Sign Up
                     </v-card-title>
                     <v-card-text>
-                        <v-text-field name="full name" label="full name" v-model="name" :counter="10" :rules="nameRules"
+                        <v-text-field name=" name" label="full name" v-model="name" :counter="10" :rules="nameRules"
                             outlined required>
                         </v-text-field>
                         <v-text-field v-model="email" :rules="emailRules" label="E-mail" outlined required>
@@ -17,9 +17,9 @@
                             :rules="paswordRules" :type="show1 ? 'text' : 'password'" name="input-10-1"
                             label="Your Password" hint="At least 8 characters" counter @click:append="show1 = !show1"
                             outlined></v-text-field>
-                        <v-text-field v-model="address" :rules="addressRules" label="address" outlined required>
+                        <v-text-field v-model="faculity" :rules="faculityRules" label="faculity" outlined required>
                         </v-text-field>
-                        <v-text-field v-model="phone_number" :rules="phoneRules" label="phone_number" outlined required>
+                        <v-text-field v-model="phone" :rules="phoneRules" label="phone_number" outlined required>
                         </v-text-field>
 
                     </v-card-text>
@@ -41,7 +41,7 @@
 </template>
 
 <script>
-import mutationUsers from '~/apollo/mutations/users_mutations'
+import mutationUser from '~/apollo/mutations/users_mutations'
 import bcrypt from 'bcryptjs';
 export default {
     layout: 'blank',
@@ -58,12 +58,12 @@ export default {
                 v => !!v || 'Name is required',
                 v => (v && v.length <= 20) || 'Name must be less than 10 characters',
             ],
-            address: '',
-            addressRules: [
-                v => !!v || 'address is required',
+         faculity: '',
+         faculityRules: [
+                v => !!v || 'faculity is required',
                 v => (v && v.length <= 10) || 'Name must be less than 10 characters',
             ],
-            phone_number: '',
+            phone: '',
             phoneRules: [
                 v => !!v || 'phone_number is required',
                 v => (v && v.length <= 10) || 'Name must be less than 11 characters',
@@ -80,16 +80,16 @@ export default {
     methods: {
         insertUsers() {
             this.$apollo.mutate({
-                mutation: mutationUsers.insert_users,
+                mutation: mutationUser.insert_user,
                 variables: {
-                    full_name: this.name,
+                    name: this.name,
                     email: this.email,
-                    address: this.address,
-                    phone_number: this.phone_number,
+                    faculity: this.faculity,
+                    phone: this.phone,
                     password: this.encryptPassword(this.password),
                 }
             }).then(rs => {
-                this.users.push(rs.data.insert_users)
+                this.user.push(rs.data.insert_user)
                 console.log(rs)
                 console.log(this.encryptPassword(this.password))
                 this.$router.push('/login')

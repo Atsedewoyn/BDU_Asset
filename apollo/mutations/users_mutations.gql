@@ -1,17 +1,35 @@
-﻿mutation insert_users(
-    $full_name:String,
+﻿mutation insert_user(
+    $name:String,
     $email:String,
-    $address:String,
-    $phone_number:String,
+    $faculity:String,
+    $phone:String,
     $password:String
     ) {
-  insert_users(objects: {
-    full_name:$full_name, 
+  insert_user(objects: {
+    name:$name, 
     email: $email, 
-    address: $address,
-    phone_number: $phone_number,
+    faculity: $faculity,
+    phone: $phone,
     password:$password
     }) {
     affected_rows
+  }
+}
+
+mutation delete_user($id: Int!) {
+  delete_user(where: {id: {_eq: $id}}) {
+    affected_rows
+    returning {
+      id
+    }
+  }
+}
+
+mutation update_user($id: Int!) {
+  update_user(where: {id: {_eq: $id}}) {
+    affected_rows
+    returning {
+      id
+    }
   }
 }

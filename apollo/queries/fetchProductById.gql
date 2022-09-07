@@ -1,0 +1,14 @@
+﻿query product($id: Int!) {
+  product(where: {id: {_eq: $id}}) {
+    id
+    name
+    gallery
+    category
+    created_at
+    updated_at
+    price
+    description
+
+    
+  }
+}
